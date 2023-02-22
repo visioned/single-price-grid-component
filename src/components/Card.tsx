@@ -39,7 +39,7 @@ export const Card = () => {
           </button>
         </div>
 
-        <div className="lg:h-[259px] lg:w-[317.5px] h-[227px] w-[311px] bg-[#4ABEBD] py-[20px] px-[25px] lg:py-[40px] lg:px-[40px] lg:rounded-br-[8px] rounded-b-[6px]">
+        <div className="lg:h-[259px] lg:w-[317.5px] h-[227px] w-[311px] bg-[#4ABEBD] py-[20px] px-[25px] lg:py-[40px] lg:px-[40px] lg:rounded-br-[8px] lg:rounded-bl-0 rounded-b-[6px] ">
           <h2 className="font-bold text-lg">Why Us</h2>
           <ul className="mt-4">
             {why.map((item) => (
